@@ -1,0 +1,31 @@
+@media screen and (min-width:840px) {
+    
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+    
+    nav ul li:first-child {
+        display: none;
+    }
+    
+    nav ul li {
+        display: block;
+    }
+
+    h1{
+        display: block;
+        color: white;
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

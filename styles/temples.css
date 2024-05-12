@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+
+/*---------Header beginning-------*/
+header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: lightblue;
+}
+
+.open li{
+    display: block;
+}
+
+li:hover{
+    border: solid rgb(0, 0, 0) 1px;
+}
+    /*TOGGLE PART*/
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+nav ul li:first-child {
+    display: block;
+    font-size: 2rem;
+}
+
+nav ul li:first-child a {
+    padding: 1px 10px;
+}
+
+/*THIS IS THE PART RESPONSIBLE FOR DISAPERING THE MENU*/
+            nav ul li {
+                display: none;
+                 list-style: none;
+                margin: 10px;
+            }
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    display: none;
+}
+
+
+/*-----------Header end-----------*/
+
+
+
+/*-----------Main Beginning-----------*/
+main{
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+/* ---> this is gonna be for the large one */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* section{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+} */
+
+div{
+    text-align: center;
+    margin: 1rem;    
+}
+
+img{
+    max-width: 250px;
+}
+
+p{
+    text-align: center;
+}
+
+/*-----------Main End-----------*/
+
+
+
+/*-----------Footer Begining-----------*/
+footer{
+    background-color: lightblue;
+    text-align: center;
+}
+/*-----------Footer End-----------*/
