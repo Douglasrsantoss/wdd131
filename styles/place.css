@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-bottom: solid rgb(244, 244, 138) 20px;
+    margin: 0;
+}
+
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+section{
+    text-align: center;
+}
+
+#hero{
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: solid rgb(244, 244, 138) 10px;
+    display: block;
+}
+
+#hero img{
+    width: 100%;
+    height: auto;
+}
+
+#data{
+    display: block;
+    border-bottom: 1px solid rgb(237, 237, 28);
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}

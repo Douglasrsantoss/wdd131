@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Temple album.">
+    <meta name="author" content="Douglas R Santos">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-larger.css">
+    <script defer="script" src="scripts/place.js"></script>
+    <script defer="script" src="scripts/getdates.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+    <main>
+        <section id="hero">
+            <picture>
+                <source srcset="images/christ-small.webp" media="(max-width: 740px)">
+                <img src="images/christ-wide.webp" alt="Cristo Redentor" width="1100" height="800">
+              </picture>        
+        </section>
+        <section id="data">
+            <h2>Data</h2>
+            <ul>
+                <li><b>Area:</b> 8,510,000 km²</li>
+                <li><b>Population:</b> 215,300,000</li>
+                <li><b>Capital:</b> Brasilia</li>
+                <li><b>Language:</b> Portuguese</li>
+                <li><b>Currency:</b> Real</li>
+                <li><b>Time zone:</b> UTC -3</li>
+                <li><b>Calling code:</b> +55</li>
+            </ul>
+        </section>
+        <section id="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt="Icon" width="100">
+            <ul>
+                <li><b>Temperature:</b> 28°C</li>
+                <li><b>Condition:</b> Sunny</li>
+                <li><b>Wind:</b> 12 km/h</li>
+                <li><b>Wind Chill:</b> <span id="wind_chill"></span></li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Douglas R Santos | Brazil</p>
+        <p id="last">Last modification: <span id="last-modification"></span></p>
+    </footer>
+</body>
+</html>
