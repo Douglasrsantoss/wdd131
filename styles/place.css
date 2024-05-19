@@ -1,3 +1,7 @@
+:root{
+    --bord: 20px solid rgb(244, 244, 138)
+}
+
 body{
     font-family: 'Roboto', sans-serif, Arial, Helvetica;
     margin: 0;
@@ -8,7 +12,7 @@ header{
     color: white;
     text-align: center;
     justify-content: center;
-    border-bottom: solid rgb(244, 244, 138) 20px;
+    border-bottom: var(--bord);
     margin: 0;
 }
 
@@ -52,4 +56,5 @@ footer{
     background-color: green;
     color: white;
     padding: 10px;
+    border-top: var(--bord);
 }
