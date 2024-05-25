@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+
+/*---------Header beginning-------*/
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: rgb(11, 36, 97);
+}
+
+.open li {
+    display: block;
+}
+
+/* nav:hover {
+    border: solid rgb(11, 36, 97);
+} */
+
+a:hover {
+    border: solid rgb(255, 255, 255) 1px;
+}
+
+/*TOGGLE PART*/
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+nav ul li:first-child {
+    display: block;
+    font-size: 2rem;
+}
+
+nav ul li:first-child a {
+    padding: 1px 10px;
+}
+
+/*THIS IS THE PART RESPONSIBLE FOR DISAPERING THE MENU*/
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    display: none;
+}
+
+
+/*-----------Header end-----------*/
+
+
+
+/*-----------Main Beginning-----------*/
+main {
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+/* ---> this is gonna be for the large one */
+.temple-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+
+}
+
+section{
+    text-align: center;
+    background-color: rgb(234, 231, 231);
+    padding: 10px;
+    margin: 10px;
+}
+
+h3{
+    padding: 10px;
+}
+
+p{
+    margin: 5px;
+    /* padding: 0.15rem; */
+}
+
+section span{
+    color: purple;
+    font-weight: bold;
+}
+
+
+/* section{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+} */
+
+div {
+    text-align: center;
+    margin: 1rem;
+}
+
+img {
+    margin: 10px;
+    max-width: 250px;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.192);
+
+}
+
+/*-----------Main End-----------*/
+
+
+
+/*-----------Footer Begining-----------*/
+footer {
+    background-color: lightblue;
+    text-align: center;
+}
+
+/*-----------Footer End-----------*/
