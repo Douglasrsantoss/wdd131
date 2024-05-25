@@ -82,8 +82,8 @@ const temples = [
         dedicated: "1978, October, 30",
         area: 55000,
         imageUrl:
-        "https://douglasrsantoss.github.io/wdd131/images/sao-paulo-brazil-temple1.jpg"
-        // "../images/sao-paulo-brazil-temple1.jpg",
+        // "https://douglasrsantoss.github.io/wdd131/images/sao-paulo-brazil-temple1.jpg"
+        "../images/sao-paulo-brazil-temple1.jpg",
         // "file:///C:/Users/DouglasRoberto/Documents/DOUGLAS/BYU-Id/wdd131/images/sao-paulo-brazil-temple1.jpg"
       },
       {
@@ -92,8 +92,8 @@ const temples = [
         dedicated: "2002, May, 17",
         area: 49100,
         imageUrl:
-        "https://douglasrsantoss.github.io/wdd131/images/campinas-brazil-temple1.jpg"
-        // "../images/campinas-brazil-temple1.jpg"
+        // "https://douglasrsantoss.github.io/wdd131/images/campinas-brazil-temple1.jpg"
+        "../images/campinas-brazil-temple1.jpg"
       },
       {
         templeName: "Brasilia Brazil",
@@ -101,8 +101,8 @@ const temples = [
         dedicated: "2023, September, 17",
         area: "?",
         imageUrl:
-        "https://douglasrsantoss.github.io/wdd131/images/brasilia-brazil-temple1.jpg"       
-        // "../images/brasilia-brazil-temple1.jpeg"
+        // "https://douglasrsantoss.github.io/wdd131/images/brasilia-brazil-temple1.jpg"       
+        "../images/brasilia-brazil-temple1.jpeg"
       },
   ];
 
