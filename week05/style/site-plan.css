@@ -175,5 +175,6 @@ nav a:hover {
   grid-column: 1/3;
 }
 #home img{
-  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
