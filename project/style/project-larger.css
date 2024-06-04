@@ -43,7 +43,6 @@
 
     section{
         display: flex;
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -53,7 +52,29 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    #third-row{
+        display: flex;
+        margin-right: 50px;
+    }
     
+    #third-row .list{
+        text-align: right;
+        margin-left: 0;
+        font-family: "Jura", "roboto", sans-serif;
+    }
+
+    #fourth-row{
+        display: flex;
+        margin-right: 50px;
+    }
+    
+    #fourth-row .list{
+        text-align: right;
+        margin-left: 0;
+        font-family: "Jura", "roboto", sans-serif;
+    }
+
+
 
 
 }

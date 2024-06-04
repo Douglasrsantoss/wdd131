@@ -135,28 +135,30 @@
     }
 
     #third-row{
-        display: flex;
+        display: block;
         padding: 20px;
         background-color: rgba(222, 229, 229, .5);
         border: white solid 40px;
+        text-align: center;
     }
 
     #third-row img{
         max-width: 225px;
-        margin-right: 50px;
+        /* margin: auto; */
     }
 
     #third-row .list{
-        text-align: right;
-        margin-left: 0;
+        text-align: center;
+        margin: auto;
         font-family: "Jura", "roboto", sans-serif;
     }
 
     #fourth-row{
-        display: flex;
+        display: block;
         padding: 20px;
         background-color: rgba(222, 229, 229, .5);
         border: white solid 40px;
+        text-align: center;
     }
 
     #fourth-row img{
@@ -165,7 +167,7 @@
     }
 
     #fourth-row .list{
-        text-align: right;
+        text-align: center;
         margin-right: 0;
         font-family: "Jura", "roboto", sans-serif;
     }
