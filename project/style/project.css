@@ -80,6 +80,10 @@
 
     /* MAIN PART */
 
+    ul{
+        list-style-position: inside;
+    }
+
     h1{
         color: #4CA952;
         font-family: "Orbitron", "Jura,", "Roboto", sans-serif;
