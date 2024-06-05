@@ -198,6 +198,7 @@
 
     #about-us h3{
         text-align: center;
+        margin-top: 5%;
     }
 
     #aboutus-upperlist{
@@ -216,6 +217,11 @@
         text-align: center;
     }
 
+    iframe{
+        max-width: 250px;
+        max-height: 250px;
+    }
+
     #map-left{
         margin: 20px;
         background-color: #DEE5E5;
@@ -227,10 +233,17 @@
         display: block;
     }
 
+    #location{
+        display: block;
+    }
+
 
     /* end of about us page */
 
     .card{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
         background-color: rgba(222, 229, 229, .5);
         padding: 20px;
         border: solid 20px rgb(255, 255, 255);
