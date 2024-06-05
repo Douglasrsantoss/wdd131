@@ -201,12 +201,12 @@
         margin-top: 5%;
     }
 
-    #aboutus-upperlist{
+    .aboutus-upperlist{
         display: block;
         text-align: center;
     }
 
-    #aboutus-upperlist h3{
+    .aboutus-upperlist h3{
         font-size: 1rem;
     }
 
