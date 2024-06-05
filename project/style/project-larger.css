@@ -104,7 +104,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .adress{
+        grid-column: 2/3;
+    }
 
+    iframe{
+        grid-column: 1/4;
+    }
 
     .subtitle{
         font-family: "Jura", "Roboto", sans-serif;

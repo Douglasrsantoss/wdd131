@@ -178,6 +178,53 @@
         padding: 15px;
     }
 
+    /* end of the home page */
+
+    /* about us page */
+
+    #about-us{
+        display: block;
+    }
+
+    #about-us p{
+        font-size: 1.25rem;
+        padding: 15px;
+    }
+
+    #about-us h3{
+        text-align: center;
+    }
+
+    #aboutus-upperlist{
+        display: block;
+        text-align: center;
+    }
+
+    #aboutus-upperlist h3{
+        font-size: 1rem;
+    }
+
+    #local{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+        text-align: center;
+    }
+
+    #map-left{
+        margin: 20px;
+        background-color: #DEE5E5;
+        display: block;
+    }
+
+    #map-right{
+        background-color: #DEE5E5;
+        display: block;
+    }
+
+
+    /* end of about us page */
+
     .card{
         background-color: rgba(222, 229, 229, .5);
         padding: 20px;
