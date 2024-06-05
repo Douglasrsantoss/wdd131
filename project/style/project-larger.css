@@ -112,6 +112,14 @@
         grid-column: 2/3;
     }
 
+    .link{
+        grid-column: 1/4;
+    }
+
+    #social-media img{
+        grid-column: 1/4;
+    }
+
     iframe{
         grid-column: 1/4;
     }
