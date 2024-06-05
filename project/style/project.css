@@ -23,6 +23,11 @@
         display: block;
     }
 
+    header a:hover{
+        border: none;
+        color: #DEE5E5;
+    }
+
     a:hover {
         border: solid #DEE5E5 1px;
     }
