@@ -22,53 +22,59 @@ const services = [
       quantity: "1000"
     },
     {
-        cardName: "Simple Business Card",
-        imageUrl: "images/cartao-visita1.jpg",
-        price: "R$ 150,00",
+        cardName: "Double Business Card",
+        imageUrl: "images/cartao-visita2.jpg",
+        price: "R$ 250,00",
         quantity: "1000"
     },
     {
-        cardName: "Simple Business Card",
+        cardName: "Varnished Card",
         imageUrl: "images/cartao-visita1.jpg",
-        price: "R$ 150,00",
+        price: "R$ 250,00",
         quantity: "1000"
     },
     {
-        cardName: "Simple Business Card",
-        imageUrl: "images/cartao-visita1.jpg",
-        price: "R$ 150,00",
+        cardName: "Double-varnished card",
+        imageUrl: "images/cartao-visita2.jpg",
+        price: "R$ 300,00",
         quantity: "1000"
     },
     {
-        cardName: "Simple Business Card",
+        cardName: "Business Card + Art",
         imageUrl: "images/cartao-visita1.jpg",
-        price: "R$ 150,00",
+        price: "R$ 250,00",
         quantity: "1000"
     },
     {
-        cardName: "Simple Business Card",
-        imageUrl: "images/cartao-visita1.jpg",
-        price: "R$ 150,00",
+        cardName: "Double Card + Art",
+        imageUrl: "images/cartao-visita2.jpg",
+        price: "R$ 350,00",
         quantity: "1000"
     }]
 
 const banners = [
     {  
-      cardName: "Simple Business Card",
+      cardName: "Simple Banner",
       imageUrl: "images/banner1.jpg",
       price: "R$ 150,00",
       quantity: "1"
     },
     {  
-        cardName: "Simple Business Card",
-        imageUrl: "images/banner1.jpg",
-        price: "R$ 150,00",
+        cardName: "Stand Banner",
+        imageUrl: "images/banner2.jpg",
+        price: "R$ 250,00",
         quantity: "1"
     },
     {  
-        cardName: "Simple Business Card",
-        imageUrl: "images/banner1.jpg",
-        price: "R$ 150,00",
+        cardName: "Simple Banner in Canvas",
+        imageUrl: "images/banner3.jpg",
+        price: "R$ 200,00",
+        quantity: "1"  
+    },
+    {  
+        cardName: "Stand Banner in Canvas",
+        imageUrl: "images/banner4.jpg",
+        price: "R$ 300,00",
         quantity: "1"  
     }]
 
@@ -77,6 +83,7 @@ const banners = [
 function createCard(colection,sectionID) {
     // document.querySelector("#firs-row").innerHTML = "";
         colection.forEach(services => {
+        let link = document.createElement("a")
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let img = document.createElement("img");
@@ -98,7 +105,10 @@ function createCard(colection,sectionID) {
         card.appendChild(price);
         card.appendChild(quantity);
 
-        document.querySelector(sectionID).appendChild(card);
+        link.appendChild(card)
+        link.setAttribute("href", "https://wa.me/+5567981364464")
+
+        document.querySelector(sectionID).appendChild(link);
 
     })
 };

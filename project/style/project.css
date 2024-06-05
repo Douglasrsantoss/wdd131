@@ -91,7 +91,91 @@
     section{
         display: grid;
         align-items: center;
+    }
 
+    section a{
+        color: inherit;
+        text-decoration: none;
+    }
+        /* for the home page */
+    #hero{
+        padding: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #hero img{
+        text-align: center;
+        max-width: none;
+        width: 100%;
+        height: auto;
+    }
+
+    #home-cards-right p{
+        text-align: center;
+        grid-column: 1/4;
+    }
+
+    #home-cards-left p{
+        text-align: center;
+        grid-column: 1/4;
+    }
+
+    .card-bottom{
+        background-color: rgba(222, 229, 229, .5);
+        padding: 20px;
+        border: solid 20px rgb(255, 255, 255);
+    }
+
+    #bottom-list{
+        text-align: center;
+        grid-column: 1/4;
+    }
+
+    #text{
+        margin: 50px;
+        display: block;
+    }
+
+    #text p{
+        color: #4CA952;
+        font-size: 1.5rem;
+    }
+
+    #first-text{
+        text-align: center;
+        padding: 5%;
+    }
+
+    #first-text img{
+        max-width: 100px;
+    }
+
+    #second-text{
+        text-align: center;
+        padding: 5%;
+    }
+
+    #second-text img{
+        max-width: 100px;
+    }
+
+    #text-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin: auto;
+    }
+
+    #list-right{
+        margin: auto;
+        padding: 15px;
+    }
+
+    #list-left{
+        margin: auto;
+        padding: 15px;
     }
 
     .card{
@@ -100,12 +184,25 @@
         border: solid 20px rgb(255, 255, 255);
     }
 
+    
+    p{
+        font-family: "Jura", "Roboto", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    li{
+        font-family: "Jura", "Roboto", sans-serif;
+        font-weight: 700;
+    }
+
     section h3{
         color: #4CA952;
         font-family: "Orbitron", "Jura", "Roboto", sans-serif;
         grid-column: 1/4;
+        grid-row: 1/3;
         margin: auto;
-        padding: 20px
+        padding: 20px;
     }
 
     section img{
@@ -117,7 +214,7 @@
     .price{
         font-family: "Jura", "Roboto", sans-serif;
         font-weight: 700;
-        grid-row: 3/4;
+        grid-row: 4/5;
         grid-column: 1/3;
         font-size: 1.25rem;
         margin: auto;
@@ -127,7 +224,7 @@
     .quantity{
         font-family: "Jura", "Roboto", sans-serif;
         font-weight: 700;
-        grid-row: 3/4;
+        grid-row: 4/5;
         grid-column: 3/4;
         font-size: 0.75rem;
         text-align: left; 
@@ -149,7 +246,7 @@
 
     #third-row .list{
         text-align: center;
-        margin: auto;
+        margin-left: 0;
         font-family: "Jura", "roboto", sans-serif;
     }
 
@@ -163,7 +260,6 @@
 
     #fourth-row img{
         max-width: 225px;
-        margin-left: 50px;
     }
 
     #fourth-row .list{
@@ -191,6 +287,7 @@
     li{
         padding: 10px;
     }
+
     .list1{
         padding: 20px;
         display: block;
@@ -200,6 +297,10 @@
         font-family: "Jura", "roboto", sans-serif;
     }
 
+    .list1 a{
+        color: inherit;
+    }
+
     .list2{
         padding: 20px;
         display: block;
@@ -207,6 +308,10 @@
         margin: auto;
         margin-left: 2rem;
         font-family: "Jura", "roboto", sans-serif;
+    }
+
+    .list2 a{
+        color: inherit;
     }
 
 
